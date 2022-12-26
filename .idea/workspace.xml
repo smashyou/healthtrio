@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="032faaa4-bfa9-4166-b8e9-c1c9f70a71a0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthtrio/codingexercise/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthtrio/codingexercise/MUAScorecardDataRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthtrio/codingexercise/MUAScorecardDataResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthtrio/codingexercise/ParseJsonResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthtrio/codingexercise/PctHospitalsMuDataByState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/healthtrio/codingexercise/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/healthtrio/codingexercise/MUAScorecardDataRequestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/healthtrio/codingexercise/MUAScorecardDataResponseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/healthtrio/codingexercise/ParseJsonResponseTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2JSxVDxeU01mmN5e4nw8l63FCxE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.healthtrio.codingexercise" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.healthtrio.codingexercise.App" />
+      <module name="healthtrio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MUAScorecardDataRequestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="healthtrio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.healthtrio.codingexercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.healthtrio.codingexercise" />
+      <option name="MAIN_CLASS_NAME" value="com.healthtrio.codingexercise.MUAScorecardDataRequestTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MUAScorecardDataResponseTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="healthtrio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.healthtrio.codingexercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.healthtrio.codingexercise" />
+      <option name="MAIN_CLASS_NAME" value="com.healthtrio.codingexercise.MUAScorecardDataResponseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MUAScorecardDataResponseTest.testResponse_invalidRequest_returnsResponse_404" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="healthtrio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.healthtrio.codingexercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.healthtrio.codingexercise" />
+      <option name="MAIN_CLASS_NAME" value="com.healthtrio.codingexercise.MUAScorecardDataResponseTest" />
+      <option name="METHOD_NAME" value="testResponse_invalidRequest_returnsResponse_404" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MUAScorecardDataResponseTest.testResponse_nullRequest_throwsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="healthtrio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.healthtrio.codingexercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.healthtrio.codingexercise" />
+      <option name="MAIN_CLASS_NAME" value="com.healthtrio.codingexercise.MUAScorecardDataResponseTest" />
+      <option name="METHOD_NAME" value="testResponse_nullRequest_throwsException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MUAScorecardDataResponseTest.testResponse_validRequest_returnsResponse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="healthtrio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.healthtrio.codingexercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.healthtrio.codingexercise" />
+      <option name="MAIN_CLASS_NAME" value="com.healthtrio.codingexercise.MUAScorecardDataResponseTest" />
+      <option name="METHOD_NAME" value="testResponse_validRequest_returnsResponse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test All" type="JUnit" factoryName="JUnit">
+      <module name="healthtrio" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="JUnit.Test All" />
+      <item itemvalue="JUnit.MUAScorecardDataRequestTest" />
+      <item itemvalue="JUnit.MUAScorecardDataResponseTest (1)" />
+      <item itemvalue="JUnit.MUAScorecardDataResponseTest.testResponse_invalidRequest_returnsResponse_404" />
+      <item itemvalue="JUnit.MUAScorecardDataResponseTest.testResponse_nullRequest_throwsException" />
+      <item itemvalue="JUnit.MUAScorecardDataResponseTest.testResponse_validRequest_returnsResponse" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MUAScorecardDataResponseTest.testResponse_invalidRequest_returnsResponse_404" />
+        <item itemvalue="JUnit.MUAScorecardDataResponseTest.testResponse_validRequest_returnsResponse" />
+        <item itemvalue="JUnit.MUAScorecardDataResponseTest.testResponse_nullRequest_throwsException" />
+        <item itemvalue="JUnit.MUAScorecardDataResponseTest (1)" />
+        <item itemvalue="JUnit.MUAScorecardDataRequestTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="032faaa4-bfa9-4166-b8e9-c1c9f70a71a0" name="Changes" comment="" />
+      <created>1672085310503</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672085310503</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/healthtrio$Test_All.ic" NAME="Test All Coverage Results" MODIFIED="1672089966416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
