@@ -1,7 +1,7 @@
 # HealthTrio
 Coding Exercise
 
-# Meaningful Use of CEHRT by State in 2014
+## Meaningful Use of CEHRT by State in 2014
 This application connects to the Centers for Medicare and Medicaid Services (CMS) EHR Incentive Program Measures API (https://www.healthit.gov/data/open-api?source=Meaningful-Use-Acceleration-Scorecard.csv&period=2014), retrieves data on the percentage of eligible and critical access hospitals that have demonstrated Meaningful Use of Certified Electronic Health Record Technology (CEHRT) in the year 2014, and prints the percentage results in descending order along with corresponding states.
 
 ### Prerequisites
@@ -63,7 +63,7 @@ Copy and paste below lines to your project in your `pom.xml` file under the `<pl
 </plugin>
 ```
 
-# Building and Running the App
+## Building and Running the App
 To build and run the app, follow these steps:
 
 1. Clone the repository:
@@ -84,7 +84,7 @@ java -cp target/healthtrio-1.0.0-with-dependencies.jar com.healthtrio.codingexer
 ```
 The app will connect to the API, retrieve the data, and print the results as described above.
 ___
-# Containerizing the App
+## Containerizing the App (How I did it)
 Docker is used to containerize this app using following `Dockerfile`
 ```Dockerfile
 FROM openjdk:19
@@ -97,7 +97,14 @@ docker build -t healthtrio-image .
 ```
 This will build a Docker image with the name "healthtrio-image" based on the instructions in the `Dockerfile` located in the current directory (indicated by the `.` at the end of the command).
 
-Once the image has been built, you can use the `docker run` command to run the image as a container. For example, you can run the following command to start a container based on the "healthtrio-image" image:
+___
+## Pull Docker image & Run containerized application
+
+Pull the Docker image of this docker containerized application ([link to my Docker hub repo](https://hub.docker.com/repositories/smashyou)) by running following command: 
+```
+docker pull smashyou/healthtrio:1.0.0
+```
+Once you have done pulling from the repo, you can run the following command to start a container based on the "healthtrio-image" image:
 ```
 docker run -p 8080:8080 healthtrio-image
 ```
