@@ -10,6 +10,7 @@ public class MUAScorecardDataRequest {
     MUAScorecardDataRequest(String uri) {
         this.API_URI = uri;
     }
+
     public HttpRequest request() {
         // Add a null check to avoid a NullPointerException
         if (API_URI == null) {
