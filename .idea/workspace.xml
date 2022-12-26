@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="032faaa4-bfa9-4166-b8e9-c1c9f70a71a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthtrio/codingexercise/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthtrio/codingexercise/MUAScorecardDataRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthtrio/codingexercise/MUAScorecardDataResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthtrio/codingexercise/ParseJsonResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthtrio/codingexercise/PctHospitalsMuDataByState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/healthtrio/codingexercise/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/healthtrio/codingexercise/MUAScorecardDataRequestTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/healthtrio/codingexercise/MUAScorecardDataResponseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/healthtrio/codingexercise/ParseJsonResponseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
