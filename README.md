@@ -80,7 +80,7 @@ mvn package
 ```
 4. Execute the app:
 ```
-java -cp target/healthtrio-1.0.0-with-dependencies.jar com.healthtrio.codingexercise.App
+java -cp target/healthtrio-1.0.1-with-dependencies.jar com.healthtrio.codingexercise.App
 ```
 The app will connect to the API, retrieve the data, and print the results as described above.
 ___
@@ -88,7 +88,7 @@ ___
 Docker is used to containerize this app using following `Dockerfile`
 ```Dockerfile
 FROM openjdk:19
-COPY target/healthtrio-1.0.0-with-dependencies.jar healthtrioApp.jar
+COPY target/healthtrio-1.0.1-with-dependencies.jar healthtrioApp.jar
 ENTRYPOINT ["java","-jar","healthtrioApp.jar"]
 ```
 To build the Docker image, run the following command in the root directory of the project:
@@ -102,7 +102,7 @@ ___
 
 Pull the Docker image of this docker containerized application ([link to my Docker hub repo](https://hub.docker.com/repositories/smashyou)) by running following command: 
 ```
-docker pull smashyou/healthtrio:1.0.0
+docker pull smashyou/healthtrio:1.0.1
 ```
 Once you have done pulling from the repo, you can run the following command to start a container based on the "healthtrio-image" image:
 ```
