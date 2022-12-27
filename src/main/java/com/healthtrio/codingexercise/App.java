@@ -10,7 +10,7 @@ public class App {
     public static void main( String[] args ) throws IOException, InterruptedException {
         MUAScorecardDataRequest scorecardDataRequest = new MUAScorecardDataRequest(API_URI);
         MUAScorecardDataResponse scorecardResponse = new MUAScorecardDataResponse();
-        ParseJsonResponse parsedJsonResponse = new ParseJsonResponse(scorecardResponse);
+        ParseJsonResponse parsedJsonResponse = new ParseJsonResponse();
 
         List<PctHospitalsMuDataByState> pctHospitalsMuDataByStateList = parsedJsonResponse
                 .createDataObject(scorecardResponse.response(scorecardDataRequest.request()));

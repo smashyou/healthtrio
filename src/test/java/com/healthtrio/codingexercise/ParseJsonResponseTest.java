@@ -23,7 +23,7 @@ public class ParseJsonResponseTest {
     @Before
     public void setUp() {
         initMocks(this);
-        scorecardResponse = Mockito.mock(MUAScorecardDataResponse.class);
+//        scorecardResponse = Mockito.mock(MUAScorecardDataResponse.class);
     }
 
     @Test
@@ -32,7 +32,7 @@ public class ParseJsonResponseTest {
         when(response.body()).thenReturn("{\"AL\":{\"region\":\"Alabama\",\"pct_hospitals_mu\":\"0.25\"},\"AK\":{\"region\":\"Alaska\",\"pct_hospitals_mu\":\"0.50\"}}");
 
         // Create a ParseJsonResponse object and call the createDataObject method
-        ParseJsonResponse parseJsonResponse = new ParseJsonResponse(scorecardResponse);
+        ParseJsonResponse parseJsonResponse = new ParseJsonResponse();
         List<PctHospitalsMuDataByState> dataObject = parseJsonResponse.createDataObject(response);
 
         // Verify that the returned list has the correct size and contents
@@ -53,7 +53,7 @@ public class ParseJsonResponseTest {
         );
 
         // Create a ParseJsonResponse object and call the sortDescendingPct method
-        ParseJsonResponse parseJsonResponse = new ParseJsonResponse(scorecardResponse);
+        ParseJsonResponse parseJsonResponse = new ParseJsonResponse();
         parseJsonResponse.sortDescendingPct(dataObject);
 
         assertEquals("State 2", dataObject.get(0).getRegion());
@@ -73,7 +73,7 @@ public class ParseJsonResponseTest {
         );
 
         // Create a ParseJsonResponse object and call the formatDecimalToPercent method
-        ParseJsonResponse parseJsonResponse = new ParseJsonResponse(scorecardResponse);
+        ParseJsonResponse parseJsonResponse = new ParseJsonResponse();
         parseJsonResponse.formatDecimalToPercent(actualResults);
 
         assertEquals("25%", actualResults.get(0).getPctHospitalsMu());

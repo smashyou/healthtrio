@@ -7,7 +7,8 @@
     <list default="true" id="032faaa4-bfa9-4166-b8e9-c1c9f70a71a0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/healthtrio/codingexercise/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthtrio/codingexercise/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/healthtrio/codingexercise/MUAScorecardDataRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthtrio/codingexercise/MUAScorecardDataRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/healthtrio/codingexercise/ParseJsonResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthtrio/codingexercise/ParseJsonResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/healthtrio/codingexercise/ParseJsonResponseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/healthtrio/codingexercise/ParseJsonResponseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,25 +70,10 @@
       <recent name="com.healthtrio.codingexercise" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test All">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.healthtrio.codingexercise.App" />
       <module name="healthtrio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MUAScorecardDataRequestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="healthtrio" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.healthtrio.codingexercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.healthtrio.codingexercise" />
-      <option name="MAIN_CLASS_NAME" value="com.healthtrio.codingexercise.MUAScorecardDataRequestTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -155,6 +141,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ParseJsonResponseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="healthtrio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.healthtrio.codingexercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.healthtrio.codingexercise" />
+      <option name="MAIN_CLASS_NAME" value="com.healthtrio.codingexercise.ParseJsonResponseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test All" type="JUnit" factoryName="JUnit">
       <module name="healthtrio" />
       <option name="PACKAGE_NAME" value="" />
@@ -168,7 +169,7 @@
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="JUnit.Test All" />
-      <item itemvalue="JUnit.MUAScorecardDataRequestTest" />
+      <item itemvalue="JUnit.ParseJsonResponseTest" />
       <item itemvalue="JUnit.MUAScorecardDataResponseTest (1)" />
       <item itemvalue="JUnit.MUAScorecardDataResponseTest.testResponse_invalidRequest_returnsResponse_404" />
       <item itemvalue="JUnit.MUAScorecardDataResponseTest.testResponse_nullRequest_throwsException" />
@@ -176,11 +177,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParseJsonResponseTest" />
         <item itemvalue="JUnit.MUAScorecardDataResponseTest.testResponse_invalidRequest_returnsResponse_404" />
         <item itemvalue="JUnit.MUAScorecardDataResponseTest.testResponse_validRequest_returnsResponse" />
         <item itemvalue="JUnit.MUAScorecardDataResponseTest.testResponse_nullRequest_throwsException" />
         <item itemvalue="JUnit.MUAScorecardDataResponseTest (1)" />
-        <item itemvalue="JUnit.MUAScorecardDataRequestTest" />
       </list>
     </recent_temporary>
   </component>
@@ -199,6 +200,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/healthtrio$Test_All.ic" NAME="Test All Coverage Results" MODIFIED="1672089966416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/healthtrio$Test_All.ic" NAME="Test All Coverage Results" MODIFIED="1672091743242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/healthtrio$App.ic" NAME="App Coverage Results" MODIFIED="1672091717490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

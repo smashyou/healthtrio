@@ -12,10 +12,7 @@ import java.util.Map;
 
 public class ParseJsonResponse {
 
-    MUAScorecardDataResponse scorecardResponse;
-
-    ParseJsonResponse(MUAScorecardDataResponse response) {
-        this.scorecardResponse = response;
+    ParseJsonResponse() {
     }
 
     public List<PctHospitalsMuDataByState> createDataObject (HttpResponse<String> response) throws JsonProcessingException {
