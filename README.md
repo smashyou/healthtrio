@@ -63,6 +63,7 @@ Copy and paste below lines to your project in your `pom.xml` file under the `<pl
 </plugin>
 ```
 
+___
 ## Building and Running the App
 To build and run the app, follow these steps:
 
