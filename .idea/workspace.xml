@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="032faaa4-bfa9-4166-b8e9-c1c9f70a71a0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/healthtrio/codingexercise/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthtrio/codingexercise/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/healthtrio/codingexercise/ParseJsonResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthtrio/codingexercise/ParseJsonResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/healthtrio/codingexercise/ParseJsonResponseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/healthtrio/codingexercise/ParseJsonResponseTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="032faaa4-bfa9-4166-b8e9-c1c9f70a71a0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
