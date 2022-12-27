@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="032faaa4-bfa9-4166-b8e9-c1c9f70a71a0" name="Changes" comment="" />
+    <list default="true" id="032faaa4-bfa9-4166-b8e9-c1c9f70a71a0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/healthtrio/codingexercise/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthtrio/codingexercise/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/healthtrio/codingexercise/MUAScorecardDataRequestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/healthtrio/codingexercise/MUAScorecardDataRequestTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +77,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MUAScorecardDataResponseTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MUAScorecardDataRequestTest.testRequest_nullUri_throwsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="healthtrio" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +86,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.healthtrio.codingexercise" />
-      <option name="MAIN_CLASS_NAME" value="com.healthtrio.codingexercise.MUAScorecardDataResponseTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.healthtrio.codingexercise.MUAScorecardDataRequestTest" />
+      <option name="METHOD_NAME" value="testRequest_nullUri_throwsException" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -164,19 +169,19 @@
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="JUnit.Test All" />
+      <item itemvalue="JUnit.MUAScorecardDataRequestTest.testRequest_nullUri_throwsException" />
       <item itemvalue="JUnit.ParseJsonResponseTest" />
-      <item itemvalue="JUnit.MUAScorecardDataResponseTest (1)" />
       <item itemvalue="JUnit.MUAScorecardDataResponseTest.testResponse_invalidRequest_returnsResponse_404" />
       <item itemvalue="JUnit.MUAScorecardDataResponseTest.testResponse_nullRequest_throwsException" />
       <item itemvalue="JUnit.MUAScorecardDataResponseTest.testResponse_validRequest_returnsResponse" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MUAScorecardDataRequestTest.testRequest_nullUri_throwsException" />
         <item itemvalue="JUnit.ParseJsonResponseTest" />
         <item itemvalue="JUnit.MUAScorecardDataResponseTest.testResponse_invalidRequest_returnsResponse_404" />
         <item itemvalue="JUnit.MUAScorecardDataResponseTest.testResponse_validRequest_returnsResponse" />
         <item itemvalue="JUnit.MUAScorecardDataResponseTest.testResponse_nullRequest_throwsException" />
-        <item itemvalue="JUnit.MUAScorecardDataResponseTest (1)" />
       </list>
     </recent_temporary>
   </component>
