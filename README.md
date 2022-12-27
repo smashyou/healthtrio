@@ -102,9 +102,10 @@ ___
 
 Pull the Docker image of this docker containerized application ([link to my Docker hub repo](https://hub.docker.com/repositories/smashyou)) by running following command: 
 ```
-docker pull smashyou/healthtrio:1.0.1
+docker pull smashyou/healthtrio:<tag name>
 ```
 Once you have done pulling from the repo, you can run the following command to start a container based on the "healthtrio-image" image:
 ```
-docker run -p 8080:8080 healthtrio-image
+docker run -p 8080:8080 healthtrio-image:<tag name>
 ```
+Docker will always apply the latest by default if `tag name` if left out. Current `smashyou/healthtrio` repo has `1.0.0` & `1.0.1` version tags
